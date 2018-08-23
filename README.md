@@ -1,4 +1,4 @@
-## Gocsv
+## GoCSV
 
 Service to parse CSV file with PRN expressions and Refs (A1, B1, etc)
 
