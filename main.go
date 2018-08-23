@@ -24,10 +24,6 @@ func main() {
 
 	// Parse records and get result with values
 	result := parser.Records(records)
-	if err != nil {
-		fmt.Println("ERROR:", err)
-		return
-	}
 
 	//Print result CSV to STDOUT
 	parser.CsvPrint(result)
