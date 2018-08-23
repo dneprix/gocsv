@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-// Rpn function calculatres value from expression
+// Rpn function calculates value from expression
 func Rpn(expression string) string {
 	items := strings.Fields(expression)
 
