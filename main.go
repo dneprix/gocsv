@@ -25,6 +25,6 @@ func main() {
 	// Parse records and get result with values
 	result := parser.Records(records)
 
-	//Print result CSV to STDOUT
+	// Print result CSV to STDOUT
 	parser.CsvPrint(result)
 }
